@@ -1,0 +1,82 @@
+[
+    {
+        "silaba": "A",
+        "palavra": "AVIÃO",
+        "complemento_silaba": "_VIAO",
+        "som": "https://localhost:8080/api/get-audio?audioName=a.ogg",
+        "imagens": [
+            {
+                "imagem": "https://localhost:8080/api/get-image?imageName=A_Avião_Foto_1.png"
+            },
+            {
+                "imagem": "https://localhost:8080/api/get-image?imageName=A_Avião_Foto_2.png"
+            },
+            {
+                "imagem": "https://localhost:8080/api/get-image?imageName=A_Avião_Imagem_1.png"
+            },
+            {
+                "imagem": "https://localhost:8080/api/get-image?imageName=A_Avião_Imagem_2.png"
+            }
+        ]
+    },
+    {
+        "silaba": "GA",
+        "palavra": "GATO",
+        "complemento_silaba": "_ _TO",
+        "som": "https://localhost:8080/api/get-audio?audioName=ga.ogg",
+        "imagens": [
+            {
+                "imagem": "https://localhost:8080/api/get-image?imageName=Ga_Gato_Foto_1.png"
+            },
+            {
+                "imagem": "https://localhost:8080/api/get-image?imageName=Ga_Gato_Foto_2.png"
+            },
+            {
+                "imagem": "https://localhost:8080/api/get-image?imageName=Ga_Gato_Imagem_1.png"
+            },
+            {
+                "imagem": "https://localhost:8080/api/get-image?imageName=Ga_Gato_Imagem_2.png"
+            }
+        ]
+    },
+    {
+        "silaba": "PA",
+        "palavra": "PATO",
+        "complemento_silaba": "_ _TO",
+        "som": "https://localhost:8080/api/get-audio?audioName=pa.ogg",
+        "imagens": [
+            {
+                "imagem": "https://localhost:8080/api/get-image?imageName=Pa_Pato_Foto_1.png"
+            },
+            {
+                "imagem": "https://localhost:8080/api/get-image?imageName=Pa_Pato_Foto_2.png"
+            },
+            {
+                "imagem": "https://localhost:8080/api/get-image?imageName=Pa_Pato_Imagem_1.png"
+            },
+            {
+                "imagem": "https://localhost:8080/api/get-image?imageName=Pa_Pato_Imagem_2.png"
+            }
+        ]
+    },
+    {
+        "silaba": "LA",
+        "palavra": "LÁPIS",
+        "complemento_silaba": "_ _PIS",
+        "som": "https://localhost:8080/api/get-audio?audioName=la.ogg",
+        "imagens": [
+            {
+                "imagem": "https://localhost:8080/api/get-image?imageName=La_Lápis_Foto_1.png"
+            },
+            {
+                "imagem": "https://localhost:8080/api/get-image?imageName=La_Lápis_Foto_2.png"
+            },
+            {
+                "imagem": "https://localhost:8080/api/get-image?imageName=La_Lápis_Imagem_1.png"
+            },
+            {
+                "imagem": "https://localhost:8080/api/get-image?imageName=La_Lápis_Imagem_2.png"
+            }
+        ]
+    }
+]
