@@ -1,24 +1,16 @@
-const https = require('https');
+const cors = require('cors');  // Importa o pacote CORS
+const http = require('http');  // Use 'http' no lugar de 'https'
 const fs = require('fs');
 const path = require('path');
 const express = require('express');
 
 const app = express();
 
-//conecta com mongo.js
-const exportData = require('./mongo');
+// Habilitar CORS para todas as origens
+app.use(cors());  // Isso permite requisições de qualquer origem
 
-// Carregar os certificados SSL com tratamento de erro
-let options;
-try {
-    options = {
-        key: fs.readFileSync(path.join(__dirname, 'server.key')),
-        cert: fs.readFileSync(path.join(__dirname, 'server.cert'))
-    };
-} catch (err) {
-    console.error("Erro ao carregar os certificados SSL:", err);
-    process.exit(1);
-}
+// Conecta com mongo.js
+const exportData = require('./mongo');
 
 // Rota para o caminho padrão
 app.get('/', (req, res) => {
@@ -33,8 +25,13 @@ app.use('/Teste_Acerte_A_Silaba', express.static(path.join(__dirname, 'Teste_Ace
 
 // Servir o arquivo JSON `word.json`
 app.get('/api/get-json', async (req, res) => {
-    const json_data = await exportData();
-    res.json(json_data);
+    try {
+        const json_data = await exportData();
+        res.json(json_data);
+    } catch (err) {
+        console.error("Erro no endpoint /api/get-json:", err);
+        res.status(500).json({ error: "Erro ao obter dados do servidor." });
+    }
 });
 
 // Servir imagem com base no parâmetro de consulta (query parameter)
@@ -75,6 +72,14 @@ app.get('/api/get-audio', (req, res) => {
     });
 });
 
+// Iniciar o servidor HTTP na porta 8080
+http.createServer(app).listen(8080, () => {
+    console.log('Servidor HTTP rodando em http://localhost:8080/jogoExportado\n');
+    console.log('Servidor HTTP rodando em http://localhost:8080/Teste\n');
+});
+
+
+
 
 // // Servir o arquivo JSON `word.json`
 // app.get('/api/get-json', (req, res) => {
@@ -94,9 +99,3 @@ app.get('/api/get-audio', (req, res) => {
 //         }
 //     });
 // });
-
-// Iniciar o servidor HTTPS na porta 8080
-https.createServer(options, app).listen(8080, () => {
-    console.log('Servidor HTTPS rodando em https://localhost:8080/jogoExportado\n');
-    console.log('Servidor HTTPS rodando em https://localhost:8080/Teste\n');
-});
