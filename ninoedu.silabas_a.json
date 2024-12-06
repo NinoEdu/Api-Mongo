@@ -1,0 +1,408 @@
+[{
+  "_id": {
+    "$oid": "674c8b13ce72502adeef545f"
+  },
+  "silaba": "A",
+  "palavra": "AVIÃO",
+  "complemento_silaba": "_VIAO",
+  "som": "http://localhost:8080/api/get-audio?audioName=a.ogg",
+  "imagens": [
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=A_Aviao_Foto_1.png"
+    },
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=A_Aviao_Foto_2.png"
+    },
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=A_Aviao_Imagem_1.png"
+    },
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=A_Aviao_Imagem_2.png"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "674c8b13ce72502adeef5460"
+  },
+  "silaba": "BA",
+  "palavra": "BANANA",
+  "complemento_silaba": "_ _NANA",
+  "som": "http://localhost:8080/api/get-audio?audioName=ba.ogg",
+  "imagens": [
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Ba_Banana_Foto_1.png"
+    },
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Ba_Banana_Foto_2.png"
+    },
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Ba_Banana_Imagem_1.png"
+    },
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Ba_Banana_Imagem_2.png"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "674c8b13ce72502adeef5461"
+  },
+  "silaba": "CA",
+  "palavra": "CACHORRO",
+  "complemento_silaba": "_ _CHORRO",
+  "som": "http://localhost:8080/api/get-audio?audioName=ca.ogg",
+  "imagens": [
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Ca_Cachorro_Foto_1.png"
+    },
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Ca_Cachorro_Foto_2.png"
+    },
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Ca_Cachorro_Imagem_1.png"
+    },
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Ca_Cachorro_Imagem_2.png"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "674c8b13ce72502adeef5462"
+  },
+  "silaba": "DA",
+  "palavra": "DADO",
+  "complemento_silaba": "_ _DO",
+  "som": "http://localhost:8080/api/get-audio?audioName=da.ogg",
+  "imagens": [
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Da_Dado_Foto_1.png"
+    },
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Da_Dado_Foto_2.png"
+    },
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Da_Dado_Imagem_1.png"
+    },
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Da_Dado_Imagem_2.png"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "674c8b13ce72502adeef5463"
+  },
+  "silaba": "FA",
+  "palavra": "FACA",
+  "complemento_silaba": "_ _CA",
+  "som": "http://localhost:8080/api/get-audio?audioName=fa.ogg",
+  "imagens": [
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Fa_Faca_Foto_1.png"
+    },
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Fa_Faca_Foto_2.png"
+    },
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Fa_Faca_Imagem_1.png"
+    },
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Fa_Faca_Imagem_2.png"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "674c8b13ce72502adeef5464"
+  },
+  "silaba": "GA",
+  "palavra": "GATO",
+  "complemento_silaba": "_ _TO",
+  "som": "http://localhost:8080/api/get-audio?audioName=ga.ogg",
+  "imagens": [
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Ga_Gato_Foto_1.png"
+    },
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Ga_Gato_Foto_2.png"
+    },
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Ga_Gato_Imagem_1.png"
+    },
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Ga_Gato_Imagem_2.png"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "674c8b13ce72502adeef5465"
+  },
+  "silaba": "JA",
+  "palavra": "JACARÉ",
+  "complemento_silaba": "_ _CARE",
+  "som": "http://localhost:8080/api/get-audio?audioName=ja.ogg",
+  "imagens": [
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Ja_Jacare_Foto_1.png"
+    },
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Ja_Jacare_Foto_2.png"
+    },
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Ja_Jacare_Imagem_1.png"
+    },
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Ja_Jacare_Imagem_2.png"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "674c8b13ce72502adeef5466"
+  },
+  "silaba": "LA",
+  "palavra": "LÁPIS",
+  "complemento_silaba": "_ _PIS",
+  "som": "http://localhost:8080/api/get-audio?audioName=la.ogg",
+  "imagens": [
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=La_Lapis_Foto_1.png"
+    },
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=La_Lapis_Foto_2.png"
+    },
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=La_Lapis_Imagem_1.png"
+    },
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=La_Lapis_Imagem_2.png"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "674c8b13ce72502adeef5467"
+  },
+  "silaba": "MA",
+  "palavra": "MACACO",
+  "complemento_silaba": "_ _CACO",
+  "som": "http://localhost:8080/api/get-audio?audioName=ma.ogg",
+  "imagens": [
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Ma_Macaco_Foto_1.png"
+    },
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Ma_Macaco_Foto_2.png"
+    },
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Ma_Macaco_Imagem_1.png"
+    },
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Ma_Macaco_Imagem_2.png"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "674c8b13ce72502adeef5468"
+  },
+  "silaba": "NA",
+  "palavra": "NAVIO",
+  "complemento_silaba": "_ _VIO",
+  "som": "http://localhost:8080/api/get-audio?audioName=na.ogg",
+  "imagens": [
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Na_Navio_Foto_1.png"
+    },
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Na_Navio_Foto_2.png"
+    },
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Na_Navio_Imagem_1.png"
+    },
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Na_Navio_Imagem_2.png"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "674c8b13ce72502adeef5469"
+  },
+  "silaba": "PA",
+  "palavra": "PATO",
+  "complemento_silaba": "_ _TO",
+  "som": "http://localhost:8080/api/get-audio?audioName=pa.ogg",
+  "imagens": [
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Pa_Pato_Foto_1.png"
+    },
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Pa_Pato_Foto_2.png"
+    },
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Pa_Pato_Imagem_1.png"
+    },
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Pa_Pato_Imagem_2.png"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "674c8b13ce72502adeef546a"
+  },
+  "silaba": "QUA",
+  "palavra": "QUATI",
+  "complemento_silaba": "_ _ _TI",
+  "som": "http://localhost:8080/api/get-audio?audioName=qua.ogg",
+  "imagens": [
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Qua_Quati_Foto_1.png"
+    },
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Qua_Quati_Foto_2.png"
+    },
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Qua_Quati_Imagem_1.png"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "674c8b13ce72502adeef546b"
+  },
+  "silaba": "RA",
+  "palavra": "RATO",
+  "complemento_silaba": "_ _TO",
+  "som": "http://localhost:8080/api/get-audio?audioName=ra.ogg",
+  "imagens": [
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Ra_Rato_Foto_1.png"
+    },
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Ra_Rato_Foto_2.png"
+    },
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Ra_Rato_Imagem_1.png"
+    },
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Ra_Rato_Imagem_2.png"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "674c8b13ce72502adeef546c"
+  },
+  "silaba": "SA",
+  "palavra": "SAPO",
+  "complemento_silaba": "_ _PO",
+  "som": "http://localhost:8080/api/get-audio?audioName=sa.ogg",
+  "imagens": [
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Sa_Sapo_Foto_1.png"
+    },
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Sa_Sapo_Foto_2.png"
+    },
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Sa_Sapo_Imagem_1.png"
+    },
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Sa_Sapo_Imagem_2.png"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "674c8b13ce72502adeef546d"
+  },
+  "silaba": "TA",
+  "palavra": "TATU",
+  "complemento_silaba": "_ _TU",
+  "som": "http://localhost:8080/api/get-audio?audioName=ta.ogg",
+  "imagens": [
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Ta_Tatu_Foto_1.png"
+    },
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Ta_Tatu_Foto_2.png"
+    },
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Ta_Tatu_Imagem_1.png"
+    },
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Ta_Tatu_Imagem_2.png"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "674c8b13ce72502adeef546e"
+  },
+  "silaba": "VA",
+  "palavra": "VACA",
+  "complemento_silaba": "_ _CA",
+  "som": "http://localhost:8080/api/get-audio?audioName=va.ogg",
+  "imagens": [
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Va_Vaca_Foto_1.png"
+    },
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Va_Vaca_Foto_2.png"
+    },
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Va_Vaca_Imagem_1.png"
+    },
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Va_Vaca_Imagem_2.png"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "674c8b13ce72502adeef546f"
+  },
+  "silaba": "XA",
+  "palavra": "XADREZ",
+  "complemento_silaba": "_ _DREZ",
+  "som": "http://localhost:8080/api/get-audio?audioName=xa.ogg",
+  "imagens": [
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Xa_Xadrez_Foto_1.png"
+    },
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Xa_Xadrez_Foto_2.png"
+    },
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Xa_Xadrez_Imagem_1.png"
+    },
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Xa_Xadrez_Imagem_2.png"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "674c8b13ce72502adeef5470"
+  },
+  "silaba": "ZA",
+  "palavra": "ZABUMBA",
+  "complemento_silaba": "_ _BUMBA",
+  "som": "http://localhost:8080/api/get-audio?audioName=za.ogg",
+  "imagens": [
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Za_Zabumba_Foto_1.png"
+    },
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Za_Zabumba_Imagem_1.png"
+    },
+    {
+      "imagem": "http://localhost:8080/api/get-image?imageName=Za_Zabumba_Imagem_2.png"
+    }
+  ]
+}]
