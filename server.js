@@ -1,5 +1,5 @@
-const cors = require('cors');  // Importa o pacote CORS
-const http = require('http');  // Use 'http' no lugar de 'https'
+const cors = require('cors');
+const http = require('http');
 const fs = require('fs');
 const path = require('path');
 const express = require('express');
@@ -7,26 +7,19 @@ const express = require('express');
 const app = express();
 
 // Habilitar CORS para todas as origens
-app.use(cors());  // Isso permite requisições de qualquer origem
+app.use(cors());
 
 // Conecta com mongo.js
 const exportData = require('./mongo');
 
-// Rota para o caminho padrão
-app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'jogoExportado', 'index.html')); // Verifique o caminho do arquivo HTML
-});
-
-// Configurar o Express para servir a pasta do jogo e recursos
-app.use('/jogoExportado', express.static(path.join(__dirname, 'jogoExportado')));
-app.use('/Vogal_A', express.static(path.join(__dirname, 'Vogal_A')));
+// Middleware para servir pastas fixas
 app.use('/Teste', express.static(path.join(__dirname, 'Teste')));
 app.use('/Teste_Acerte_A_Silaba', express.static(path.join(__dirname, 'Teste_Acerte_A_Silaba')));
 
-// Servir o arquivo JSON `word.json`
+// Endpoint para servir dados do MongoDB
 app.get('/api/get-json', async (req, res) => {
     try {
-        const json_data = await exportData();
+        const json_data = await exportData(); // Supondo que exportData retorne um JSON válido
         res.json(json_data);
     } catch (err) {
         console.error("Erro no endpoint /api/get-json:", err);
@@ -34,68 +27,28 @@ app.get('/api/get-json', async (req, res) => {
     }
 });
 
-// Servir imagem com base no parâmetro de consulta (query parameter)
-app.get('/api/get-image', (req, res) => {
-    const imageName = req.query.imageName; // Nome da imagem
-    if (!imageName) {
-        return res.status(400).send('Parâmetro imageName não fornecido.');
-    }
-    
-    const imagePath = path.join(__dirname, 'Vogal_A', 'Imagens', imageName); 
+// Endpoint dinâmico para servir imagens e áudios
+app.get('/api/:vogal/:fileType', (req, res) => {
+    const { vogal, fileType } = req.params; // Exemplo: vogal = "Vogal_A", fileType = "Imagens"
+    const fileName = req.query.fileName; // Nome do arquivo (e.g., A_Aviao_Foto_1.png)
 
-    fs.access(imagePath, fs.constants.F_OK, (err) => {
-        if (err) {
-            console.error("Imagem não encontrada:", imageName);
-            res.status(404).send('Imagem não encontrada.');
-        } else {
-            res.sendFile(imagePath);
-        }
-    });
-});
-
-// Servir áudio com base no parâmetro de consulta (query parameter)
-app.get('/api/get-audio', (req, res) => {
-    const audioName = req.query.audioName; // Nome do áudio
-    if (!audioName) {
-        return res.status(400).send('Parâmetro audioName não fornecido.');
+    if (!fileName) {
+        return res.status(400).send('Parâmetro fileName não fornecido.');
     }
 
-    const audioPath = path.join(__dirname, 'Vogal_A', 'Audios', audioName); 
+    const filePath = path.join(__dirname, vogal, fileType, fileName);
 
-    fs.access(audioPath, fs.constants.F_OK, (err) => {
+    // Verifica se o arquivo existe
+    fs.access(filePath, fs.constants.F_OK, (err) => {
         if (err) {
-            console.error("Áudio não encontrado:", audioName);
-            res.status(404).send('Áudio não encontrado.');
-        } else {
-            res.sendFile(audioPath);
+            console.error(`${fileType} não encontrado:`, filePath);
+            return res.status(404).send(`${fileType} não encontrado.`);
         }
+        res.sendFile(filePath);
     });
 });
 
 // Iniciar o servidor HTTP na porta 8080
 http.createServer(app).listen(8080, () => {
-    console.log('Servidor HTTP rodando em http://localhost:8080/jogoExportado\n');
-    console.log('Servidor HTTP rodando em http://localhost:8080/Teste\n');
+    console.log('Servidor HTTP rodando em http://localhost:8080/Teste');
 });
-
-
-
-
-// // Servir o arquivo JSON `word.json`
-// app.get('/api/get-json', (req, res) => {
-//     const jsonPath = path.join(__dirname, 'Vogal_A', 'words.json');
-
-//     fs.readFile(jsonPath, 'utf8', (err, data) => {
-//         if (err) {
-//             console.error("Erro ao ler o arquivo JSON:", err);
-//             return res.status(500).send('Erro ao carregar o arquivo JSON.');
-//         }
-//         try {
-//             const jsonData = JSON.parse(data); // Parse do JSON
-//             res.json(jsonData); // Envia o JSON como resposta
-//         } catch (parseErr) {
-//             console.error("Erro ao parsear o JSON:", parseErr);
-//             res.status(500).send('Erro ao processar o arquivo JSON.');
-//         }
-//     });
-// });
