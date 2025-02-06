@@ -1,11 +1,11 @@
 const { MongoClient } = require('mongodb');
 
+// URL do MongoDB e o nome do banco
+const url = 'mongodb://localhost:27017';
+const dbName = 'ninoedu'; // Nome do seu banco
+const client = new MongoClient(url);
+
 async function exportData() {
-    // URL do MongoDB e o nome do banco
-    const url = 'mongodb://localhost:27017';
-    const dbName = 'ninoedu'; // Nome do seu banco
-    const client = new MongoClient(url);
-  
     try {
     // Conexão com o MongoDB
     await client.connect();

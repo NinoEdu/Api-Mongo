@@ -15,7 +15,7 @@ Para rodar o projeto é necessário ter instalado na sua máquina:
 
 ## Funcionamento
 
-Crie no Mongo uma database com o nome **_"ninoedu"_** e uma collection com nome **_"silabas_a"_**, importe o arquivo **_ninoedu.silabas_a.json"_** na collection:
+Crie no Mongo uma database com o nome **_"ninoedu"_** e uma collection com nome **_"silabas_a"_**, importe o arquivo **_"ninoedu.silabas_a.json"_** na collection:
 
 Depois abra a pasta e execute os comandos:
 
