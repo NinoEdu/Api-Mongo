@@ -12,8 +12,17 @@ app.use(cors());
 // Conecta com mongo.js
 const exportData = require('./mongo');
 
+//rodar threads do Godot
+app.use((req, res, next) => {
+    res.setHeader("Cross-Origin-Opener-Policy", "same-origin");
+    res.setHeader("Cross-Origin-Embedder-Policy", "require-corp");
+    res.setHeader("Cross-Origin-Resource-Policy", "cross-origin");
+    next();
+});
+
 // Middleware para servir pastas fixas
 app.use('/Teste', express.static(path.join(__dirname, 'Teste')));
+app.use('/teste2', express.static(path.join(__dirname, 'teste2')));
 app.use('/Teste_Acerte_A_Silaba', express.static(path.join(__dirname, 'Teste_Acerte_A_Silaba')));
 
 // Endpoint para servir dados do MongoDB
@@ -51,4 +60,5 @@ app.get('/api/:vogal/:fileType', (req, res) => {
 // Iniciar o servidor HTTP na porta 8080
 http.createServer(app).listen(8080, () => {
     console.log('Servidor HTTP rodando em http://localhost:8080/Teste');
+    console.log('Servidor HTTP rodando em http://localhost:8080/teste2');
 });
