@@ -1,7 +1,7 @@
 const { MongoClient } = require('mongodb');
 
 // URL do MongoDB e o nome do banco
-const url = 'mongodb://localhost:27017';
+const url = 'mongodb://127.0.0.1:27017';
 const dbName = 'silabas_a'; // Nome do seu banco
 const client = new MongoClient(url);
 

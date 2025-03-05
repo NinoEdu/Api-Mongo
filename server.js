@@ -57,8 +57,9 @@ app.get('/api/:vogal/:fileType', (req, res) => {
     });
 });
 
-// Iniciar o servidor HTTP na porta 8080
-http.createServer(app).listen(8080, () => {
-    console.log('Servidor HTTP rodando em http://localhost:8080/Teste');
-    console.log('Servidor HTTP rodando em http://localhost:8080/teste2');
+const PORT = 8080;
+const HOST = '200.201.11.163';
+
+http.createServer(app).listen(PORT, HOST, () => {
+    console.log(`Servidor HTTP iniciado`);
 });
