@@ -4,7 +4,7 @@
   },
   "silaba": "A",
   "palavra": "AVIÃO",
-  "complemento_silaba": "_VIAO",
+  "complemento_silaba": "_VIÃO",
   "som": "http://localhost:8080/api/Vogal_A/Audios?fileName=a.ogg",
   "imagens": [
     {
@@ -142,7 +142,7 @@
   },
   "silaba": "JA",
   "palavra": "JACARÉ",
-  "complemento_silaba": "_ _CARE",
+  "complemento_silaba": "_ _CARÉ",
   "som": "http://localhost:8080/api/Vogal_A/Audios?fileName=ja.ogg",
   "imagens": [
     {

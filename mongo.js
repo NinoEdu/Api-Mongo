@@ -2,7 +2,7 @@ const { MongoClient } = require('mongodb');
 
 // URL do MongoDB e o nome do banco
 const url = 'mongodb://localhost:27017';
-const dbName = 'ninoedu'; // Nome do seu banco
+const dbName = 'silabas_a'; // Nome do seu banco
 const client = new MongoClient(url);
 
 async function exportData() {
@@ -11,7 +11,7 @@ async function exportData() {
     await client.connect();
   
     const db = client.db(dbName);
-    const collection = db.collection('silabas_a'); // Nome da coleção
+    const collection = db.collection('silabas_jogos'); // Nome da coleção
   
     // Obter dados embaralhados diretamente do MongoDB usando $sample
     const data = await collection.aggregate([{ $sample: { size: 18 } }, { $project: { _id: 0 } } ]).toArray();
