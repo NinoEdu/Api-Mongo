@@ -5,19 +5,19 @@
   "silaba": "A",
   "palavra": "AVIÃO",
   "complemento_silaba": "_VIÃO",
-  "som": "http://localhost:8080/api/Vogal_A/Audios?fileName=a.ogg",
+  "som": "http://200.201.11.163:8080/api/Vogal_A/Audios?fileName=a.ogg",
   "imagens": [
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=A_Aviao_Foto_1.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=A_Aviao_Foto_1.png"
     },
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=A_Aviao_Foto_2.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=A_Aviao_Foto_2.png"
     },
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=A_Aviao_Imagem_1.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=A_Aviao_Imagem_1.png"
     },
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=A_Aviao_Imagem_2.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=A_Aviao_Imagem_2.png"
     }
   ]
 },
@@ -28,19 +28,19 @@
   "silaba": "BA",
   "palavra": "BANANA",
   "complemento_silaba": "_ _NANA",
-  "som": "http://localhost:8080/api/Vogal_A/Audios?fileName=ba.ogg",
+  "som": "http://200.201.11.163:8080/api/Vogal_A/Audios?fileName=ba.ogg",
   "imagens": [
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Ba_Banana_Foto_1.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Ba_Banana_Foto_1.png"
     },
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Ba_Banana_Foto_2.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Ba_Banana_Foto_2.png"
     },
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Ba_Banana_Imagem_1.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Ba_Banana_Imagem_1.png"
     },
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Ba_Banana_Imagem_2.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Ba_Banana_Imagem_2.png"
     }
   ]
 },
@@ -51,19 +51,19 @@
   "silaba": "CA",
   "palavra": "CACHORRO",
   "complemento_silaba": "_ _CHORRO",
-  "som": "http://localhost:8080/api/Vogal_A/Audios?fileName=ca.ogg",
+  "som": "http://200.201.11.163:8080/api/Vogal_A/Audios?fileName=ca.ogg",
   "imagens": [
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Ca_Cachorro_Foto_1.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Ca_Cachorro_Foto_1.png"
     },
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Ca_Cachorro_Foto_2.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Ca_Cachorro_Foto_2.png"
     },
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Ca_Cachorro_Imagem_1.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Ca_Cachorro_Imagem_1.png"
     },
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Ca_Cachorro_Imagem_2.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Ca_Cachorro_Imagem_2.png"
     }
   ]
 },
@@ -74,19 +74,19 @@
   "silaba": "DA",
   "palavra": "DADO",
   "complemento_silaba": "_ _DO",
-  "som": "http://localhost:8080/api/Vogal_A/Audios?fileName=da.ogg",
+  "som": "http://200.201.11.163:8080/api/Vogal_A/Audios?fileName=da.ogg",
   "imagens": [
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Da_Dado_Foto_1.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Da_Dado_Foto_1.png"
     },
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Da_Dado_Foto_2.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Da_Dado_Foto_2.png"
     },
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Da_Dado_Imagem_1.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Da_Dado_Imagem_1.png"
     },
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Da_Dado_Imagem_2.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Da_Dado_Imagem_2.png"
     }
   ]
 },
@@ -97,19 +97,19 @@
   "silaba": "FA",
   "palavra": "FACA",
   "complemento_silaba": "_ _CA",
-  "som": "http://localhost:8080/api/Vogal_A/Audios?fileName=fa.ogg",
+  "som": "http://200.201.11.163:8080/api/Vogal_A/Audios?fileName=fa.ogg",
   "imagens": [
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Fa_Faca_Foto_1.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Fa_Faca_Foto_1.png"
     },
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Fa_Faca_Foto_2.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Fa_Faca_Foto_2.png"
     },
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Fa_Faca_Imagem_1.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Fa_Faca_Imagem_1.png"
     },
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Fa_Faca_Imagem_2.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Fa_Faca_Imagem_2.png"
     }
   ]
 },
@@ -120,19 +120,19 @@
   "silaba": "GA",
   "palavra": "GATO",
   "complemento_silaba": "_ _TO",
-  "som": "http://localhost:8080/api/Vogal_A/Audios?fileName=ga.ogg",
+  "som": "http://200.201.11.163:8080/api/Vogal_A/Audios?fileName=ga.ogg",
   "imagens": [
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Ga_Gato_Foto_1.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Ga_Gato_Foto_1.png"
     },
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Ga_Gato_Foto_2.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Ga_Gato_Foto_2.png"
     },
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Ga_Gato_Imagem_1.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Ga_Gato_Imagem_1.png"
     },
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Ga_Gato_Imagem_2.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Ga_Gato_Imagem_2.png"
     }
   ]
 },
@@ -143,19 +143,19 @@
   "silaba": "JA",
   "palavra": "JACARÉ",
   "complemento_silaba": "_ _CARÉ",
-  "som": "http://localhost:8080/api/Vogal_A/Audios?fileName=ja.ogg",
+  "som": "http://200.201.11.163:8080/api/Vogal_A/Audios?fileName=ja.ogg",
   "imagens": [
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Ja_Jacare_Foto_1.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Ja_Jacare_Foto_1.png"
     },
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Ja_Jacare_Foto_2.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Ja_Jacare_Foto_2.png"
     },
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Ja_Jacare_Imagem_1.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Ja_Jacare_Imagem_1.png"
     },
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Ja_Jacare_Imagem_2.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Ja_Jacare_Imagem_2.png"
     }
   ]
 },
@@ -166,19 +166,19 @@
   "silaba": "LA",
   "palavra": "LÁPIS",
   "complemento_silaba": "_ _PIS",
-  "som": "http://localhost:8080/api/Vogal_A/Audios?fileName=la.ogg",
+  "som": "http://200.201.11.163:8080/api/Vogal_A/Audios?fileName=la.ogg",
   "imagens": [
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=La_Lapis_Foto_1.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=La_Lapis_Foto_1.png"
     },
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=La_Lapis_Foto_2.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=La_Lapis_Foto_2.png"
     },
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=La_Lapis_Imagem_1.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=La_Lapis_Imagem_1.png"
     },
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=La_Lapis_Imagem_2.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=La_Lapis_Imagem_2.png"
     }
   ]
 },
@@ -189,19 +189,19 @@
   "silaba": "MA",
   "palavra": "MACACO",
   "complemento_silaba": "_ _CACO",
-  "som": "http://localhost:8080/api/Vogal_A/Audios?fileName=ma.ogg",
+  "som": "http://200.201.11.163:8080/api/Vogal_A/Audios?fileName=ma.ogg",
   "imagens": [
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Ma_Macaco_Foto_1.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Ma_Macaco_Foto_1.png"
     },
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Ma_Macaco_Foto_2.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Ma_Macaco_Foto_2.png"
     },
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Ma_Macaco_Imagem_1.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Ma_Macaco_Imagem_1.png"
     },
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Ma_Macaco_Imagem_2.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Ma_Macaco_Imagem_2.png"
     }
   ]
 },
@@ -212,19 +212,19 @@
   "silaba": "NA",
   "palavra": "NAVIO",
   "complemento_silaba": "_ _VIO",
-  "som": "http://localhost:8080/api/Vogal_A/Audios?fileName=na.ogg",
+  "som": "http://200.201.11.163:8080/api/Vogal_A/Audios?fileName=na.ogg",
   "imagens": [
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Na_Navio_Foto_1.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Na_Navio_Foto_1.png"
     },
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Na_Navio_Foto_2.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Na_Navio_Foto_2.png"
     },
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Na_Navio_Imagem_1.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Na_Navio_Imagem_1.png"
     },
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Na_Navio_Imagem_2.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Na_Navio_Imagem_2.png"
     }
   ]
 },
@@ -235,19 +235,19 @@
   "silaba": "PA",
   "palavra": "PATO",
   "complemento_silaba": "_ _TO",
-  "som": "http://localhost:8080/api/Vogal_A/Audios?fileName=pa.ogg",
+  "som": "http://200.201.11.163:8080/api/Vogal_A/Audios?fileName=pa.ogg",
   "imagens": [
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Pa_Pato_Foto_1.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Pa_Pato_Foto_1.png"
     },
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Pa_Pato_Foto_2.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Pa_Pato_Foto_2.png"
     },
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Pa_Pato_Imagem_1.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Pa_Pato_Imagem_1.png"
     },
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Pa_Pato_Imagem_2.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Pa_Pato_Imagem_2.png"
     }
   ]
 },
@@ -258,16 +258,16 @@
   "silaba": "QUA",
   "palavra": "QUATI",
   "complemento_silaba": "_ _ _TI",
-  "som": "http://localhost:8080/api/Vogal_A/Audios?fileName=qua.ogg",
+  "som": "http://200.201.11.163:8080/api/Vogal_A/Audios?fileName=qua.ogg",
   "imagens": [
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Qua_Quati_Foto_1.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Qua_Quati_Foto_1.png"
     },
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Qua_Quati_Foto_2.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Qua_Quati_Foto_2.png"
     },
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Qua_Quati_Imagem_1.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Qua_Quati_Imagem_1.png"
     }
   ]
 },
@@ -278,19 +278,19 @@
   "silaba": "RA",
   "palavra": "RATO",
   "complemento_silaba": "_ _TO",
-  "som": "http://localhost:8080/api/Vogal_A/Audios?fileName=ra.ogg",
+  "som": "http://200.201.11.163:8080/api/Vogal_A/Audios?fileName=ra.ogg",
   "imagens": [
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Ra_Rato_Foto_1.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Ra_Rato_Foto_1.png"
     },
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Ra_Rato_Foto_2.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Ra_Rato_Foto_2.png"
     },
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Ra_Rato_Imagem_1.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Ra_Rato_Imagem_1.png"
     },
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Ra_Rato_Imagem_2.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Ra_Rato_Imagem_2.png"
     }
   ]
 },
@@ -301,19 +301,19 @@
   "silaba": "SA",
   "palavra": "SAPO",
   "complemento_silaba": "_ _PO",
-  "som": "http://localhost:8080/api/Vogal_A/Audios?fileName=sa.ogg",
+  "som": "http://200.201.11.163:8080/api/Vogal_A/Audios?fileName=sa.ogg",
   "imagens": [
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Sa_Sapo_Foto_1.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Sa_Sapo_Foto_1.png"
     },
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Sa_Sapo_Foto_2.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Sa_Sapo_Foto_2.png"
     },
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Sa_Sapo_Imagem_1.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Sa_Sapo_Imagem_1.png"
     },
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Sa_Sapo_Imagem_2.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Sa_Sapo_Imagem_2.png"
     }
   ]
 },
@@ -324,19 +324,19 @@
   "silaba": "TA",
   "palavra": "TATU",
   "complemento_silaba": "_ _TU",
-  "som": "http://localhost:8080/api/Vogal_A/Audios?fileName=ta.ogg",
+  "som": "http://200.201.11.163:8080/api/Vogal_A/Audios?fileName=ta.ogg",
   "imagens": [
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Ta_Tatu_Foto_1.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Ta_Tatu_Foto_1.png"
     },
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Ta_Tatu_Foto_2.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Ta_Tatu_Foto_2.png"
     },
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Ta_Tatu_Imagem_1.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Ta_Tatu_Imagem_1.png"
     },
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Ta_Tatu_Imagem_2.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Ta_Tatu_Imagem_2.png"
     }
   ]
 },
@@ -347,19 +347,19 @@
   "silaba": "VA",
   "palavra": "VACA",
   "complemento_silaba": "_ _CA",
-  "som": "http://localhost:8080/api/Vogal_A/Audios?fileName=va.ogg",
+  "som": "http://200.201.11.163:8080/api/Vogal_A/Audios?fileName=va.ogg",
   "imagens": [
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Va_Vaca_Foto_1.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Va_Vaca_Foto_1.png"
     },
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Va_Vaca_Foto_2.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Va_Vaca_Foto_2.png"
     },
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Va_Vaca_Imagem_1.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Va_Vaca_Imagem_1.png"
     },
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Va_Vaca_Imagem_2.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Va_Vaca_Imagem_2.png"
     }
   ]
 },
@@ -370,19 +370,19 @@
   "silaba": "XA",
   "palavra": "XADREZ",
   "complemento_silaba": "_ _DREZ",
-  "som": "http://localhost:8080/api/Vogal_A/Audios?fileName=xa.ogg",
+  "som": "http://200.201.11.163:8080/api/Vogal_A/Audios?fileName=xa.ogg",
   "imagens": [
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Xa_Xadrez_Foto_1.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Xa_Xadrez_Foto_1.png"
     },
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Xa_Xadrez_Foto_2.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Xa_Xadrez_Foto_2.png"
     },
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Xa_Xadrez_Imagem_1.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Xa_Xadrez_Imagem_1.png"
     },
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Xa_Xadrez_Imagem_2.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Xa_Xadrez_Imagem_2.png"
     }
   ]
 },
@@ -393,16 +393,16 @@
   "silaba": "ZA",
   "palavra": "ZABUMBA",
   "complemento_silaba": "_ _BUMBA",
-  "som": "http://localhost:8080/api/Vogal_A/Audios?fileName=za.ogg",
+  "som": "http://200.201.11.163:8080/api/Vogal_A/Audios?fileName=za.ogg",
   "imagens": [
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Za_Zabumba_Foto_1.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Za_Zabumba_Foto_1.png"
     },
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Za_Zabumba_Imagem_1.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Za_Zabumba_Imagem_1.png"
     },
     {
-      "imagem": "http://localhost:8080/api/Vogal_A/Imagens?fileName=Za_Zabumba_Imagem_2.png"
+      "imagem": "http://200.201.11.163:8080/api/Vogal_A/Imagens?fileName=Za_Zabumba_Imagem_2.png"
     }
   ]
 }]
