@@ -58,8 +58,8 @@ app.get('/api/:vogal/:fileType', (req, res) => {
 });
 
 const PORT = 8080;
-const HOST = '200.201.11.163';
 
-http.createServer(app).listen(PORT, HOST, () => {
+http.createServer(app).listen(PORT, () => {
     console.log(`Servidor HTTP iniciado`);
+    console.log('Servidor HTTP rodando em http://localhost:8080/Teste');
 });
