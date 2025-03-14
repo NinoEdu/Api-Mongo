@@ -22,8 +22,7 @@ app.use((req, res, next) => {
 
 // Middleware para servir pastas fixas
 app.use('/Teste', express.static(path.join(__dirname, 'Teste')));
-app.use('/teste2', express.static(path.join(__dirname, 'teste2')));
-app.use('/Teste_Acerte_A_Silaba', express.static(path.join(__dirname, 'Teste_Acerte_A_Silaba')));
+app.use('/acerte_as_silabas_teste', express.static(path.join(__dirname, 'acerte_as_silabas_teste')));
 
 // Endpoint para servir dados do MongoDB
 app.get('/api/get-json', async (req, res) => {
