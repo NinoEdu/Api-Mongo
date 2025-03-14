@@ -24,15 +24,15 @@ npm init -y
 ```
 
 ```
-npm intall express
+npm install express
 ```
 
 ```
-npm intall cors
+npm install cors
 ```
 
 ```
-npm intall mongodb
+npm install mongodb
 ```
 
 e depois rode o o codigo com:
